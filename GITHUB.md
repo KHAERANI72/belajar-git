@@ -10,7 +10,7 @@
 # Login Akun Github
 1. Buka aplikasi github di browser https://github.com/
 2. Lalu lakukan sign up pada github
- ![](asset/foto_19.JPG) 
+ ![](asset/foto_19.JPG)  
 3. Jika sudah memiliki akun langsung masukkan password dan username yang ada
  ![](asset/foto_20.JPG) 
 4. Jika tidak memiliki akun klik tambahkan akun
@@ -53,11 +53,14 @@
  ![](asset/foto_29.JPG) 
 # Akses Folder Proyek pada Git bash 
 1. Buat folder baru pada obsidian
+ 
  ![](asset/foto_30.JPG)  
 2. Buat file pada folder yang telah dibuat
+  
   ![](asset/foto_48.JPG) 
 3. Akses folder pada Git Bash
    dengan menggunakan perintah cd (change directory ) sampai ke folder obsidian yang telah di buat 
+ 
  ![](asset/foto_32.JPG) 
    
 # Menghubungkan Folder Proyek Lokal ke Github
@@ -66,6 +69,7 @@
  ```bash
   git init
   ```
+  
  ![](asset/foto_52.JPG)
  - `git init` : digunakan untuk memulai repositori Git baru di direktori yang ada.
 2.  Menambahkan repositori remote sebagai origin pada repositori lokal Git
@@ -73,6 +77,7 @@
   ```bash
   git remote add origin "url_repositori"
  ```
+ 
  ![](asset/foto_35.JPG) 
  analisis 
  - `git remote` : digunakan untuk mengelola repositori remote (server Git) yang terhubung dengan repositori lokal.
@@ -84,6 +89,7 @@
   ```bash 
   git commit -m "awal_belajar"
   ```
+  
   ![](asset/foto_53.JPG) 
   analisis : 
   - `git commit` : digunakan untuk menyimpan perubahan dari staging area ke dalam riwayat commit di repositori Git.
@@ -94,6 +100,7 @@
   ```bash
   git add .
   ```
+  
   ![](asset/foto_36.JPG)
   analisis : 
   - ` git add`  :  digunakan untuk menambahkan perubahan file ke staging area sebelum melakukan commit.
@@ -103,22 +110,28 @@
   ```bash
   git push origin master
   ```
+  
  ![](asset/foto_37.JPG)
  analisis : 
  - `git push ` : digunakan untuk mengirim perubahan yang telah di-commit dari repositori lokal ke repositori remote.
  - `origin` : adalah nama default untuk repositori remote utama yang dikonfigurasi untuk repositori lokal.
  - `master` : adalah nama cabang (branch) yang ingin Anda kirimkan ke repositori remote.
 6. setelah itu maka akan tampil seperti pada gambar
+ 
  ![](asset/foto_38.JPG)  
 7. lalu klik "Sign in with your browser" masukkan password dan username
+ 
  ![](asset/foto_39.JPG) 
 8. setelah masukkan username dan password maka akan tampil seperti pada gambar
+  
   ![](asset/foto_40.JPG) 
  
 9. lalu klik " authorize git-ecosystem" maka akan tampil seperti pada gambar 
+  
   ![](asset/foto_50.JPG) 
 
 10. setelah itu, buka https://github.com/ lalu ke repositori yang telah dibuat 
+  
   ![](asset/foto_41.JPG) 
  
 
